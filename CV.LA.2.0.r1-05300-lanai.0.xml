@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-la" name="platform/vendor/opensource/eva-kernel" path="vendor/qcom/opensource/eva-kernel" revision="4f8ee27668e04f9a0d8aad48b0b97924e7915271" upstream="refs/heads/eva-kernel.lnx.3.0.r1-rel">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/eva_kernel_product.mk" src="eva_kernel_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/eva_kernel_board.mk" src="eva_kernel_board.mk"/>
+  </project>
+</manifest>
